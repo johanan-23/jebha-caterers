@@ -731,10 +731,7 @@ export default function Home() {
               className="mt-12 text-center"
             >
               <Link href={"/legal"} prefetch={true}>
-                <Button
-                  variant="outline"
-                  size="lg"
-                >
+                <Button variant="outline" size="lg">
                   View Legal Documents
                 </Button>
               </Link>
@@ -774,8 +771,14 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium mb-1">Phone</h3>
-                    <a href="telto:+919876543210" className="underline">
-                      +91 987-654-3210
+                    <a href="telto:+919740708348" className="underline">
+                      +91 9740 708 348
+                    </a> <br />
+                    <a href="telto:+919487311872" className="underline">
+                      +91 9487 311 872
+                    </a> <br />
+                    <a href="telto:+918925365344" className="underline">
+                      +91 8925 365 344
                     </a>
                   </div>
                 </div>

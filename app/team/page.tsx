@@ -19,7 +19,7 @@ export default function Team() {
     {
       name: "Suresh",
       age: 35,
-      native: "Shoolagiri, Krishnagiri",
+      native: "Shoolagiri",
       qualification: "12th Std",
       job: "Cook (South Indian Dish)",
       experience: "15 years in Canteen field",
@@ -34,16 +34,6 @@ export default function Team() {
       job: "Cook (South Indian & Chinese)",
       experience: "6 years in Udupi Cafe & Sangeetha Restaurant",
       skills: "Numerous South Indian, Chinese, Tawa, Milk Sweets",
-      image: "/dp-placeholder.png",
-    },
-    {
-      name: "Sabari",
-      age: 32,
-      native: "Krishnagiri",
-      qualification: "10th Std",
-      job: "Assistant Cook (South Indian)",
-      experience: "5 years",
-      skills: "",
       image: "/dp-placeholder.png",
     },
     {
@@ -62,6 +52,16 @@ export default function Team() {
       native: "Assam",
       job: "Assistant Cook (North Indian Dish)",
       experience: "8 years",
+      skills: "",
+      image: "/dp-placeholder.png",
+    },
+    {
+      name: "Sabari",
+      age: 32,
+      native: "Krishnagiri",
+      qualification: "10th Std",
+      job: "Assistant Cook (South Indian)",
+      experience: "5 years",
       skills: "",
       image: "/dp-placeholder.png",
     },
@@ -118,7 +118,7 @@ export default function Team() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <Card className="h-full overflow-hidden">
+                <Card className="h-full overflow-hidden hover:shadow-xl hover:scale-[1.02] transition-transform duration-300">
                   <div className="relative">
                     <div className="h-64 flex items-center justify-center bg-muted">
                       <Image
