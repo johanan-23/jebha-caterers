@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -10,8 +10,6 @@ import {
   Phone,
   Mail,
   MapPin,
-  Menu,
-  X,
   Award,
   FileCheck,
 } from "lucide-react";
@@ -30,11 +28,9 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import Header from "@/components/Header";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function Home() {
-  const router = useRouter();
   const [activeSection, setActiveSection] = useState("hero");
   const [clientDialogOpen, setClientDialogOpen] = useState(false);
 
