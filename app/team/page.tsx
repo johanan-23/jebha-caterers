@@ -17,16 +17,6 @@ import Header from "@/components/Header";
 export default function Team() {
   const teamMembers = [
     {
-      name: "Suresh",
-      age: 35,
-      native: "Shoolagiri",
-      qualification: "12th Std",
-      job: "Cook (South Indian Dish)",
-      experience: "15 years in Canteen field",
-      skills: "Numerous South Indian Dishes",
-      image: "/dp-placeholder.png",
-    },
-    {
       name: "Madhavan",
       age: 25,
       native: "Nagapattinam",
@@ -34,6 +24,16 @@ export default function Team() {
       job: "Cook (South Indian & Chinese)",
       experience: "6 years in Udupi Cafe & Sangeetha Restaurant",
       skills: "Numerous South Indian, Chinese, Tawa, Milk Sweets",
+      image: "/dp-placeholder.png",
+    },
+    {
+      name: "Suresh",
+      age: 35,
+      native: "Shoolagiri",
+      qualification: "12th Std",
+      job: "Cook (South Indian Dish)",
+      experience: "15 years in Canteen field",
+      skills: "Numerous South Indian Dishes",
       image: "/dp-placeholder.png",
     },
     {

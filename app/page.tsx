@@ -604,13 +604,13 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 {
-                  name: "Suresh",
-                  role: "Cook (South Indian)",
+                  name: "Madhavan",
+                  role: "Cook (South Indian & Chinese)",
                   image: "/dp-placeholder.png",
                 },
                 {
-                  name: "Madhavan",
-                  role: "Cook (South Indian & Chinese)",
+                  name: "Suresh",
+                  role: "Cook (South Indian)",
                   image: "/dp-placeholder.png",
                 },
                 {
