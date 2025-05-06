@@ -21,6 +21,13 @@ export default function Header({
 }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // Helper to format section names
+  const formatSectionName = (section: string) =>
+    section
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+
   const handleSectionClick = (section: string) => {
     onSectionClick(section);
     setMobileMenuOpen(false);
@@ -63,7 +70,7 @@ export default function Header({
                       : "text-muted-foreground"
                   }`}
                 >
-                  {section.charAt(0).toUpperCase() + section.slice(1)}
+                  {formatSectionName(section)}
                   {activeSection === section && (
                     <motion.div
                       layoutId="underline"
@@ -113,7 +120,7 @@ export default function Header({
                         : "text-muted-foreground"
                     }`}
                   >
-                    {section.charAt(0).toUpperCase() + section.slice(1)}
+                    {formatSectionName(section)}
                   </button>
                 ))}
               </div>
